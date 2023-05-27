@@ -47,7 +47,8 @@ Standard language applications:
 - std::Vector in C++
 
 ## Implementation
-<code>   
+<code>
+    
     class Vector {
     public:
         void push_back(int* value)
@@ -139,5 +140,6 @@ Standard language applications:
         vector->Print();
         vector->push_back(new int(4));
         vector->Print();
-    }    
+    }
+    
 </code>
