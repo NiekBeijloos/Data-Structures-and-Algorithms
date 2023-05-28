@@ -6,6 +6,10 @@ Linear Search is the most simplistic search algorithm applicable to Linear data 
 
 The time complexity, as the name implies, is O(N). The space complexity of Linear Search is O(N), depending on the implementation.
 
+## Applicability
+Standard language applications:
+- std::search, std::find in C++
+
 ## Implementation
 <code>
 
