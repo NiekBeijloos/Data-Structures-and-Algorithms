@@ -1,6 +1,6 @@
 # Dynamic Array
 
-A dynamic array is a data structure that is often used when the number of elements, that must be stored, is unknown during compile time. 
+A dynamic array is a data structure that is often used when the number of elements, that must be stored, is unknown during compile time. A Dynamic Array is especially convenient for searching based on a given index and insertion & deletion at the back of the Array.
 
 ## Characteristics
 
