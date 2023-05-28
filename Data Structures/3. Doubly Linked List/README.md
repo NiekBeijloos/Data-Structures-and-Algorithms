@@ -27,7 +27,7 @@ The space complexity is defined:
 ## Applicability
 
 Standard language applications:
-- std::List in C++
+- std::list in C++
 
 ## Implementation
 
