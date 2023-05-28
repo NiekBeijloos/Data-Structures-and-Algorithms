@@ -1,24 +1,24 @@
 # Dynamic Array
 
-A dynamic array is a data structure that is often used when the number of elements, that must be stored, is unknown during compile time. A Dynamic Array is especially convenient for searching based on a given index and insertion & deletion at the back of the Array.
+A dynamic array is a data structure that is often used when the number of elements, that must be stored, is unknown during compile time. A Dynamic Array is especially convenient for **searching** based on a given index and **insertion & deletion** at the **back** of the Array.
 
 ## Characteristics
 
 The time complexity is defined:
 - Insertion:
     - O(n), in case shifting or resizing is required, which might be applicable to part of array:
-        - Start
+        - Front
         - Middle
-        - End 
+        - Back 
     - O(1), in case no shifting and resizing is required, which might be applicable to part of array:
-        - End
+        - Back
 - Deletion:
     - O(n), in case shifting or resizing is required, which might be applicable to part of array:
-        - Start
+        - Front
         - Middle
-        - End
+        - Back
     - O(1), in case no shifting or resizing is required, which might be applicable to part of array:
-        - End
+        - Back
 - Search:
     - O(n), in case the index of the searched element is unknown
     - O(1), in case the index of the searched element is known
@@ -26,18 +26,18 @@ The time complexity is defined:
 The space complexity is defined:
 - Insertion:
     - O(n), in case shifting or resizing is required, which might be applicable to part of array:
-        - Start
+        - Front
         - Middle
-        - End
+        - Back
     - O(1), in case no shifting and resizing is required, which might be applicable to part of array:
-        - End
+        - Back
 - Deletion:
     - O(n), in case shifting or resizing is required, which might be applicable to part of array:
-        - Start
+        - Front
         - Middle
-        - End
+        - Back
     - O(1), in case no shifting or resizing is required, which might be applicable to part of array:
-        - End
+        - Back
 - Search:
     - O(1)
 
@@ -48,7 +48,7 @@ Standard language applications:
 
 ## Implementation
 <code>
-    
+
     class Vector {
     public:
         void push_back(int* value)
@@ -141,5 +141,4 @@ Standard language applications:
         vector->push_back(new int(4));
         vector->Print();
     }
-    
 </code>

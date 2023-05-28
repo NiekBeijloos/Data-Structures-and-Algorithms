@@ -1,6 +1,6 @@
 # Singly-Linked List
 
-A Singly-Linked List is a data structure that is often used when the number of elements, that must be stored, is unknown at compile time. A Singly-Linked List is especially convenient for inserting and deleting elements at the beginning of the List. 
+A Singly-Linked List is a data structure that is often used when the number of elements, that must be stored, is unknown at compile time and the elements must be traversed in a single direction. A Singly-Linked List is especially convenient for **inserting & deleting** elements at the **front** of the List. 
 
 ## Characteristics
 
@@ -8,17 +8,17 @@ The time complexity is defined:
 - Insertion:
     - O(n), in case searching for a node is required, which might be applicable to part of Linked List:
         - Middle 
-        - End (without a tail node)
+        - Back (without a tail node)
     - O(1), in case no searching for a node is required, which might be applicable to part of Linked List:
         - Front 
-        - End (with a tail node)
+        - Back (with a tail node)
 - Deletion:
     - O(n), in case searching for a node is required, which might be applicable to part of Linked List:
         - Middle
-        - End (with a tail node)
-    - O(1), in case searching for a node is required, which might be applicable to:
+        - Back (with a tail node)
+    - O(1), in case no searching for a node is required, which might be applicable to:
         - Front
-        - End (without a tail node)
+        - Back (without a tail node)
 - Search:
     - O(n), searching for a particular node requires linear time
 
