@@ -4,7 +4,7 @@ Linear Search is the most simplistic search algorithm applicable to Linear data 
 
 ## Characteristics
 
-The time complexity, as the name implies, is O(N). The space complexity of Linear Search is O(N), depending on the implementation.
+The time complexity, as the name implies, is O(N). The space complexity of Linear Search is O(1).
 
 ## Applicability
 Standard language applications:

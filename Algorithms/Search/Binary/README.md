@@ -4,7 +4,7 @@ Binary search is a search algorithm that is applicable on sorted data structures
 
 ## Characteristics
 
-The time complexity of Binary search is O(log(N)). Each time that N doubles, the amount of steps increase by 1. E.g. N = 2 requires 1 step, N = 4 requires 2 steps, etc. The space complexity is O(N).
+The time complexity of Binary search is O(log(N)). Each time that N doubles, the amount of steps increase by 1. E.g. N = 2 requires 1 step, N = 4 requires 2 steps, etc. The space complexity is O(1).
 
 ## Applicability
 
