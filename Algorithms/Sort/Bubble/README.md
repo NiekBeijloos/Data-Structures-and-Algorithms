@@ -8,6 +8,8 @@ The Bubble Sort algorithm is one of the simplest sorting algorithms that can be 
 
 The Bubble Sort algorithm has a time complexity of O(N^2). This can be proven using above illustration. The illustration shows an array with elements (where N is the amount of elements within the array). Each element within the array requires comparison over the yet unsorted part of the array. This means the time complexity = N*(N-1)*1/2, which is 1/2(N^2-N). Let's break this down. The first 'N' represents each individual element, the 'N-1' represents the number of comparisons for each element ('-1' because we don't compare last element with an 'out-of-bound' value) and the '1/2' represents the 'skip' of the already sorted part of the array. All the constants are disposed to determine the time complexity, which results in a time complexity of O(N^2) for the Bubble Sort algorithm.
 
+The time complexity is in best case scenario: O(N). This occurres when the array is already sorted. A single pass through is required before the algorithms terminates, because no swaps have occurred (see code example).
+
 The Space Complexity is O(1).
 
 ## Applicability
@@ -26,7 +28,7 @@ Standard language applications:
         std::cout << "\n" << "------------" << "\n";
     }
 
-    std::vector<int> BubbleSortDescending(std::vector<int>&& elements)
+    std::vector<int> BubbleSortAscending(std::vector<int>&& elements)
     {
         for (auto i = elements.begin(); i != elements.end(); i++) {
             bool sortOccurred = false;
@@ -48,7 +50,7 @@ Standard language applications:
 
     int main()
     {
-        Print(BubbleSortDescending({ 7,6,5,4,3,2 }));
+        Print(BubbleSortAscending({ 7,6,5,4,3,2 }));
     }
 
 </code>
