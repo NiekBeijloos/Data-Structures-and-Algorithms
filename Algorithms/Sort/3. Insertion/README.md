@@ -15,7 +15,7 @@ The Space Complexity is O(1).
 ## Applicability
 
 Standard language applications:
-- n/a
+- std::sort in C++
 
 ## Implementation
 <code>
