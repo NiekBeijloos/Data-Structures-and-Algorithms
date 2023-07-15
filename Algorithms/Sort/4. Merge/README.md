@@ -57,7 +57,7 @@ The Space Complexity is O(N), because of the usage of 'intermediate' arrays and 
 ## Applicability
 
 Standard language applications:
-- n/a
+- std::stable_sort in C++
 
 ## Implementation
 <code>
