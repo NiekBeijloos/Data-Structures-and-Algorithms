@@ -1,6 +1,6 @@
-# Binary Search Tree
+# Unbalanced Binary Search Tree
 
-A Binary Search Tree is a tree that has the following properties:
+A Unbalanced Binary Search Tree is a tree that has the following properties:
 - Each node in a Binary Search Tree can have 0, 1 or 2 children nodes
 - The left node is always smaller than the parent node
 - The right node is always bigger than the parent node
@@ -9,29 +9,24 @@ A Binary Search Tree is a tree that has the following properties:
 
 ## Characteristics
 
-The time complexity of the insert, search and delete operation on a Binary Search Tree is defined:
+The time complexity of the insert, search and delete operation on a Unbalanced Binary Search Tree is defined:
 - Insertion: 
-    - O(n), in case of an unbalanced tree (where the difference between the height of the left subtree and right subtree is more than x, where x is usually equal to 1). An unbalanced tree has the tendency to become a linked list. O(N) is derived from traversing (almost) each node, like a linear data structure. 
-    - O(log(n)), in case of a balanced tree (where the difference between the height of the left subtree and right subtree is not more than x, where x is usally equal to 1). A balanced tree allows ~halving the number of nodes to visit during each node traversal.
+    - O(N), where the difference between the height of the left subtree and right subtree is more than x, where x is usually equal to 1. An unbalanced tree has the tendency to become a linked list. O(N) is derived from traversing (almost) each node, like a linear data structure.
 
     <img src=BalancedAndUnbalancedTree.jpg width=70% height=70%>
 - Search:
-    - O(n), in case of an unbalanced tree.
-    - O(log(n)), in case of a balanced tree.
+    - O(N)
 - Deletion:
-    - O(n), in case of an unbalanced tree.
-    - O(log(n)), in case of a balanced tree. 
-
-  Just like Insertion, Deletion also requires searching for the node that must be deleted. Re-arrange the tree after a node has been deleted is independent of the number of nodes. As for that it is consider O(1), constant time complexity.
+    - O(N), just like Insertion, Deletion also requires searching for the node that must be deleted. Re-arrange the tree after a node has been deleted is independent of the number of nodes. As for that it is consider O(1), constant time complexity.
 
 The space complexity is defined:
-- Insertion, deletion, search: O(n) in case of a unbalanced tree and O(log(n)) in case of a balanced tree.
+- Insertion, deletion, search: O(N)
 
 ## Applicability
 
 Standard language applications:
 
-- std::set & std::map in C++ use a BST variant
+- T.B.D.
 
 ## Implementation
 
