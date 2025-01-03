@@ -10,7 +10,7 @@ A Red-Black Tree is a Balanced Binary Search Tree, which has the following prope
 - Two or more consecutive red nodes is not allowed
 - Every path from root to leaf node have the same number of black nodes
 
-<img src=red-black_tree.png width=70% height=70%>
+<img src=red_black_tree.png width=70% height=70%>
 
 ## Characteristics
 
